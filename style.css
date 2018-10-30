@@ -1,0 +1,49 @@
+body{
+    background: orange;
+}
+.wrapper {
+    height: 1000px;
+}
+
+.view{
+    width: 50%;
+    height: 500px;
+    margin-left: 25%;
+    border: solid black 2px;
+}
+
+.container{
+    height: 1000px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    height: 40px;
+    width: 50px;
+    margin-right: 15px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border-bottom: solid black 2px;
+}
+
+svg {
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 300px;
+    height: auto;
+}
+
+
+/*svg:hover path {*/
+    /*fill: black;*/
+/*}*/
